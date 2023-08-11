@@ -1,0 +1,1 @@
+qemu-system-x86_64 -m 10240 -hda disk.img -vnc 127.0.0.1:1 -boot c -usbdevice tablet -cdrom DVD.iso -netdev user,id=n1 -device e1000,netdev=n1 -enable-kvm & ./noVNC/utils/novnc_proxy --vnc localhost:5901 --listen 0.0.0.0:80
