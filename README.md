@@ -9,7 +9,7 @@ Get a Windows 11 VM running on GitHub codespaces.
 5. Destroy the create codespace button
 6. When a terminal pops up in VS Code type ``sudo bash main.sh``
 7. Wait until you see a blue number count in the port section, then go theere and hit the world icon in the 80 port
-8. NoVNC will open. Hit connect and complete the install. You have now an usable VM
+8. Select if needed vnc.html from the directory listing. NoVNC will open. Hit connect and complete the install. You have now an usable VM
 9. To run back the VM run ``sudo bash start-vm.sh``
 
 ## Credits
